@@ -11,4 +11,7 @@ Watch current working directory and live reload in browser.
 2. Install the package `sudo npm install -g ./live-reload-working-directory`.
 3. Go to the directory you are working on `cd ~/projects/foo`.
 4. Run the live-reload-working-directory command `lrwd`.
-5. Now active the extension on your Chrome and edit the files in the directory. 
+5. Now active the extension on your Chrome and edit the files in the directory.
+
+## Resources
+* [LiveReload server](https://npmjs.org/package/livereload) 
