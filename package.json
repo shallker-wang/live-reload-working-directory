@@ -1,0 +1,20 @@
+{
+  "author": "Shallker Wang(shallker.wang@profero.com)",
+  "name": "live-reload-working-directory",
+  "description": "Watching current working directory and live reload them in browser.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/shallker-wang/live-reload-working-directory",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shallker-wang/live-reload-working-directory.git"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "engines": {
+    "node": "0.6"
+  },
+  "dependencies": {
+    "livereload": "0.3.0"
+  }
+}

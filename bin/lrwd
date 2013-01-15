@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+var
+  livereload = require('livereload'),
+  cwd  = process.cwd(),
+  argPort = process.argv[2];
+
+// live reload server configuration
+var config = {
+  port: argPort || 35729,
+  exts: [
+    'jade'
+    ,'html'
+    ,'css'
+    ,'coffee'
+    ,'js'
+    ,'py'
+  ]
+}
+
+// create live reload server
+server = livereload.createServer(config);
+
+// watch current directory 
+server.watch(cwd);
+
+console.log('Watching directory ' + cwd);
+
